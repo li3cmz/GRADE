@@ -32,7 +32,7 @@ Note: Make sure that your environment has installed **cuda 10.1**.
 ## Data Preparation
 GRADE is trained on the DailyDialog Dataset proposed by ([Li et al.,2017](https://arxiv.org/abs/1710.03957)).
 
-For convenience, we provide the [processed data](https://drive.google.com/file/d/1sj3Z_GZfYzrhmleWazA-QawhUEhlNmJd/view?usp=sharing) of DailyDialog. You could download it and unzip into the `data` directory.
+For convenience, we provide the [processed data](https://drive.google.com/file/d/1sj3Z_GZfYzrhmleWazA-QawhUEhlNmJd/view?usp=sharing). You could download it and unzip into the `data` directory.
 
 If you wanna prepare the training data from scratch, please follow the steps:
 1. Download [tools](https://drive.google.com/file/d/1CaRhHnO0YsQHOnJsmMUJuL4w9HXJZQYw/view?usp=sharing) and unzip it into the root directory;
