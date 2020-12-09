@@ -32,12 +32,11 @@ Note: Make sure that your environment has installed **cuda 10.1**.
 ## Data Preparation
 GRADE is trained on the DailyDialog Dataset proposed by ([Li et al.,2017](https://arxiv.org/abs/1710.03957)).
 
-For convenience, we provide the [processed data](https://drive.google.com/file/d/1sj3Z_GZfYzrhmleWazA-QawhUEhlNmJd/view?usp=sharing) of DailyDialog. You could download it and unzip into the `data` directory.
+For convenience, we provide the [processed data](https://drive.google.com/file/d/1sj3Z_GZfYzrhmleWazA-QawhUEhlNmJd/view?usp=sharing) of DailyDialog. And you should also download it and unzip into the `data` directory. And you should also download [tools](https://drive.google.com/file/d/1CaRhHnO0YsQHOnJsmMUJuL4w9HXJZQYw/view?usp=sharing) and unzip it into the root directory of this repo.
 
 If you wanna prepare the training data from scratch, please follow the steps:
-1. Download [tools](https://drive.google.com/file/d/1CaRhHnO0YsQHOnJsmMUJuL4w9HXJZQYw/view?usp=sharing) and unzip it into the root directory;
-2. Install [Lucene](https://lucene.apache.org/);
-3. Run the preprocessing script:
+1. Install [Lucene](https://lucene.apache.org/);
+2. Run the preprocessing script:
 ```
 cd ./script
 bash preprocess_training_dataset.sh
@@ -51,7 +50,7 @@ cd ./script
 bash train.sh
 ```
 
-Note that the [checkpoint](https://drive.google.com/file/d/1u-hcA8bs3hTBbv2TTnzrDvS3HKWzdOoV/view?usp=sharing) of our final GRADE is provided. You could download it and unzip into the root directory.
+Note that the [checkpoint](https://drive.google.com/file/d/1v9o-fSohFDegicakrSEnKNcKliOqhYfH/view?usp=sharing) of our final GRADE is provided. You could download it and unzip into the root directory.
 
 ## Evaluation
 We evaluate GRADE and other baseline metrics on three chit-chat datasets (DailyDialog, ConvAI2 and EmpatheticDialogues). The corresponding evaluation data in the `evaluation` directory has the following file structure:

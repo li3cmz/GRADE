@@ -190,7 +190,7 @@ def load_empatheticdialogues(dataset_dir):
     return dialog_data
 
 
-def process_dialog_str(dialog_str):
+def process_dialog_str(dialog_str, separator):
     dialog = dialog_str.split(separator)[:-1]
     dialog = replace_content_in_dialog(dialog, old_content='.', new_content=' . ')
     dialog = replace_content_in_dialog(dialog, old_content='?', new_content=' ? ')
