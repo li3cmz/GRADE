@@ -4,7 +4,7 @@
 This repository contains the source code for the following paper:
 
 
-[GRADE: Automatic Graph-Enhanced Coherence Metric for Evaluating Open-Domain Dialogue Systems](TODO)   
+[GRADE: Automatic Graph-Enhanced Coherence Metric for Evaluating Open-Domain Dialogue Systems](https://arxiv.org/abs/2010.03994)   
 Lishan Huang, Zheng Ye, Jinghui Qin, Xiaodan Liang; EMNLP 2020
 
 ## Model Overview
